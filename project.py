@@ -93,7 +93,7 @@ def main():
         select_category = input("Select Category: Breakfast, Lunch, or Dinner (press / to exit): ").lower()
         if select_category in ["breakfast", "lunch", "dinner"]:
             index = 0  # Reset index for each category
-            ingredients = input("Enter ingredients (press enter without ingredients to print all links): ").split(",")
+            ingredients = input("Enter ingredients (press enter without ingredients to print all recipes on page): ").split(",")
             while True:
                 print("Generating links...")
                 links_list = scrape_all_links(select_category, urls, index)
