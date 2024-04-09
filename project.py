@@ -1,3 +1,16 @@
+# Recipe Finder
+
+#This is a recipe finder program that offers three categories to choose from: Breakfast, Lunch, and Dinner.
+
+#The program parses through the links of the provided category,#and it goes even further by allowing you to search by ingredient. 
+
+#Essentially, it's like browsing recipes on a website, but now you can tailor your search to the ingredients you have on hand.
+
+#There are approximately 191 different pages to pull recipes from for each category.
+
+#Feel free to try this out!
+
+
 from bs4 import BeautifulSoup
 import re
 import requests
