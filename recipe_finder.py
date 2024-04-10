@@ -6,7 +6,7 @@
 
 #Essentially, it's like browsing recipes on a website, but now you can tailor your search to the ingredients you have on hand.
 
-#There are approximately 191 different pages(24 recipes per page) to pull recipes from for each category.
+#There are approximately 192 different pages(24 recipes per page) to pull recipes from for each category.
 
 #Feel free to try this out!
 
