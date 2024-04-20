@@ -101,7 +101,7 @@ except Exception as e:
     exit(1)
 
 # Now you're logged in, you can navigate to the target URL
-target_url = "https://twitter.com/purethabang/followers"
+target_url = #input twitter account url
 login_driver.get(target_url)
 
 # Find the element to scroll
